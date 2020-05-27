@@ -1,0 +1,53 @@
+$('#slider1').owlCarousel({
+    loop:true,
+    margin:20,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+});
+
+$('#team').owlCarousel({
+    loop:false,
+    margin:30,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+$('#partners').owlCarousel({
+    loop:false,
+    margin:30,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+});
+
+setTimeout(function(){
+    $(".loader-rapper").fadeOut(400);
+},2000)
